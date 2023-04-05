@@ -1,32 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/paul/built-4-life/app/helpers/application_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/home/paul/built-4-life/app/helpers/home_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/home/paul/built-4-life/app/controllers/home_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/paul/built-4-life/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/home/paul/built-4-life/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
@@ -41,6 +15,22 @@
         "lines": [
           0,
           0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/paul/built-4-life/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/paul/built-4-life/app/helpers/application_helper.rb": {
+        "lines": [
           0,
           0
         ],
@@ -80,6 +70,6 @@
         }
       }
     },
-    "timestamp": 1680696919
+    "timestamp": 1680697935
   }
 }
