@@ -52,6 +52,12 @@ gem 'html2haml', '~> 2.3'
 gem 'haml_lint', '~> 0.45.0'
 
 gem 'tailwindcss-rails', '~> 2.0', '>= 2.0.27'
+
+gem 'devise'
+gem 'dotenv-rails'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-rails_csrf_protection'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -65,8 +71,8 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
-  gem 'shoulda-matchers'
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
   gem 'simplecov', require: false, group: :test
 end
 

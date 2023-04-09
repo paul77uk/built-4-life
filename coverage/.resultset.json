@@ -29,7 +29,25 @@
         "branches": {
         }
       },
+      "/home/paul/built-4-life/app/controllers/welcome_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/paul/built-4-life/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/paul/built-4-life/app/helpers/welcome_helper.rb": {
         "lines": [
           0,
           0
@@ -68,8 +86,20 @@
         ],
         "branches": {
         }
+      },
+      "/home/paul/built-4-life/app/models/user.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1680697935
+    "timestamp": 1680711405
   }
 }
