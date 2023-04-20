@@ -45,11 +45,7 @@ gem 'bootsnap', require: false
 # Use Haml for templating
 # gem 'haml', '~> 6.1', '>= 6.1.1'
 
-gem 'haml-rails', '~> 2.1'
-
-gem 'html2haml', '~> 2.3'
-
-gem 'haml_lint', '~> 0.45.0'
+gem 'slim-rails', '~> 3.6', '>= 3.6.2'
 
 gem 'tailwindcss-rails', '~> 2.0', '>= 2.0.27'
 

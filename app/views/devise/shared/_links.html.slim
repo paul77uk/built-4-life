@@ -16,10 +16,10 @@
 - if devise_mapping.omniauthable?
   - resource_class.omniauth_providers.each do |provider|
     = form_for "Login", url: omniauth_authorize_path(resource_name, provider), method: :post, data: {turbo: "false"} do |f|
-      = button_tag type: 'submit', class: "group relative flex w-full justify-center items-center rounded-md ring-1 ring-gray-300 px-3 py-2 text-sm font-semibold text-gray-600 hover:opacity-70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-4" do
+      = button_tag type: 'submit', class: "group relative flex w-full justify-center items-center rounded-md ring-1 ring-gray-300 px-3 py-2 text-sm font-semibold text-gray-600 hover:opacity-70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 mt-4 bg-white" do
         = image_tag("google_icon.png", size: 30)
         .pl-3 
           - if controller_name != 'sessions' 
-            Sign up with Google
+            p Sign up with Google
           - if devise_mapping.registerable? && controller_name != 'registrations'
-            Sign in with Google
+            p Sign in with Google
